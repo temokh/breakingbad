@@ -8,7 +8,7 @@ class BreakingBadApplication: Application() {
 
     override fun onCreate() {
         super.onCreate()
-        DataStore.initialize(this ,getSharedPreferences("_sp_", Context.MODE_PRIVATE))
+        DataStore.initialize(getSharedPreferences("_sp_", Context.MODE_PRIVATE))
     }
 
 }

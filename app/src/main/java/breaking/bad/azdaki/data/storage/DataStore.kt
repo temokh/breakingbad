@@ -5,7 +5,6 @@ import android.content.Context
 import android.content.SharedPreferences
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import breaking.bad.azdaki.data.storage.db.CharDB
 import java.lang.RuntimeException
 import java.util.*
 
@@ -14,12 +13,10 @@ object DataStore {
     const val KEY_TOKEN = "key_token"
     private var sharedPreferences: SharedPreferences? = null
 
-    private var dataBase: CharDB? = null
-    val db get() = dataBase?: throw RuntimeException("not initialized!!")
 
-    fun initialize(context : Context,sharedPreferences: SharedPreferences){
+
+    fun initialize(sharedPreferences: SharedPreferences){
         DataStore.sharedPreferences = sharedPreferences
-        dataBase = Room.databaseBuilder(context, CharDB::class.java,"chardb").build()
     }
 
      var language:String
