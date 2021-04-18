@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/homeNavContainer"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        app:navGraph="@navigation/home_nav_graph"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/homeHavTabBar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/homeHavTabBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_nav_bar_height"
+        android:background="@color/background_for_nav_bar"
+        app:itemIconTint="@color/tab_item_colors"
+        app:itemTextColor="@color/tab_item_colors"
+        app:labelVisibilityMode="labeled"
+        app:itemTextAppearanceActive="@style/Text.Tab.Active"
+        app:itemTextAppearanceInactive="@style/Text.Tab.Inactive"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/home_tabs"/>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

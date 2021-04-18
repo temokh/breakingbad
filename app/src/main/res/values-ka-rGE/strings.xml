@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">აზდაკი</string>
+        <string name="username_here">სახელი აქ</string>
+        <string name="username">სახელი</string>
+        <string name="password_here">პაროლი აქ</string>
+        <string name="username__here">სახელი აქ</string>
+        <string name="don_t_have_an_account">არ გაქვს ექაუნთი?</string>
+        <string name="login">შესვლა</string>
+        <string name="repeat_password">გაიმეორე პაროლი</string>
+        <string name="edit_text_text">სახელი აქ</string>
+        <string name="password">პაროლი</string>
+        <string name="register">რეგისტრაცია</string>
+        <string name="back">უკან</string>
+        <string name="language">ენა</string>
+        <string name="logout">გასვლა</string>
+        <string name="login_enter_username_password">გთხოვთ შეიყვანეს სახელი და პაროლი</string>
+        <string name="common_error">შეცდომა</string>
+        <string name="common_unknown_error">უცნობი შეცდომა</string>
+        <string name="common_ok">ოკ</string>
+        <string name="profile_activity_username">მომხმარებლის სახელი</string>
+        <string name="profile_activity_name">სახელი</string>
+
+</resources>

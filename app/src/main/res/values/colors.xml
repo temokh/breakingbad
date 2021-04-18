@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow_button">#FFBB3B</color>
+    <color name="yellow_them">#FFBB3B</color>
+    <color name="edit_text_black">#212121</color>
+    <color name="select_item_color">#FFB120</color>
+    <color name="edit_text_text_color">#A2A2A2</color>
+    <color name="white_text_color">#FFFFFF</color>
+    <color name="background_color_black">#000000</color>
+    <color name="dont_have_an_account">#FFFFFF</color>
+    <color name="bottom_sheet_color">#1A1A1A</color>
+    <color name="bottom_sheet_border_color">#707070</color>
+    <color name="transparent_black">#B31A1A1A</color>
+    <color name="background_for_nav_bar">#1A1A1A</color>
+    <color name="nav_icon_color">#C6C6C6</color>
+
+</resources>

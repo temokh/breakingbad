@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/searchInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/edit_text_black"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        android:hint="@string/hint_search"
+        android:textSize="18sp"
+        android:fontFamily="@font/gothambook"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="searchs" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchInput"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

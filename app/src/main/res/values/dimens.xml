@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edit_text_text_view">17sp</dimen>
+    <dimen name="language_button_dimen">64dp</dimen>
+    <dimen name="loading_pb_dimen">64dp</dimen>
+    <dimen name="char_list_hor_inst">19dp</dimen>
+    <dimen name="char_list_vrt_space">16dp</dimen>
+    <dimen name="char_list_hor_space">16dp</dimen>
+    <dimen name="char_list_ver_inst">32dp</dimen>
+    <dimen name="home_nav_bar_height_list_hor_inst">72dp</dimen>
+    <dimen name="home_nav_bar_height">72dp</dimen>
+    <dimen name="search_bar_height">64dp</dimen>
+
+</resources>

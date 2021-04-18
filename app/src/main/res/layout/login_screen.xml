@@ -1,0 +1,125 @@
+ <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color_black">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/joined_logos"
+        tools:ignore="ContentDescription" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/username_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="280dp"
+        android:fontFamily="@font/gothambold"
+        android:text="@string/username"
+        android:textColor="@color/white_text_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="330dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:background="@drawable/edit_text_background"
+        android:inputType="textPersonName"
+        android:textColor="@color/edit_text_text_color"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username_textview" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/password_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="280dp"
+        android:fontFamily="@font/gothambold"
+        android:text="PASSWORD"
+        android:textColor="@color/white_text_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameEditText" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:textColor="@color/edit_text_text_color"
+        android:background="@drawable/edit_text_background"
+        android:id="@+id/passwordEditText"
+        android:layout_width="330dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:fontFamily="@font/gothambook"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password_text_view" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginButton"
+        android:layout_width="330dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/button_background_yellow"
+        android:text="@string/login"
+        android:fontFamily="@font/gothambold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEditText" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/dont_have_account_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/gothambook"
+        android:text="@string/don_t_have_an_account"
+        android:textColor="@color/edit_text_text_color"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/registerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:fontFamily="@font/gothambold"
+        android:text="@string/register"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dont_have_account_textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

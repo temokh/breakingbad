@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">azdaki</string>
+    <string name="username_here">username here</string>
+    <string name="username">USERNAME</string>
+    <string name="password_here">    password here</string>
+    <string name="username__here">   username here</string>
+    <string name="don_t_have_an_account">Don’t have an account?</string>
+    <string name="login">LOGIN</string>
+    <string name="repeat_password">REPEAT PASSWORD</string>
+    <string name="edit_text_text">username here</string>
+    <string name="password">PASSWORD</string>
+    <string name="register">REGISTER</string>
+    <string name="back">BACK</string>
+    <string name="language">Language</string>
+    <string name="logout">Logout</string>
+    <string name="login_enter_username_password">Please enter Username and Password</string>
+    <string name="common_error">Error</string>
+    <string name="common_unknown_error">Unknown error</string>
+    <string name="common_ok">OK</string>
+    <string name="profile_activity_username">USERNAME</string>
+    <string name="profile_activity_name">NAME</string>
+    <string name="common_Ok" />
+    <string name="login_screen_wrong_credentials">Wrong Credentials</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_search">searchs</string>
+    <string name="protrayed">Protrayed</string>
+    <string name="status">Status</string>
+    <string name="birthday">Birthday</string>
+    <string name="quotes">QUOTES</string>
+    <string name="registration_error_empty_username">Empty username</string>
+    <string name="registration_error_empty_password">empy password</string>
+    <string name="registration_error_passwords_not_matching">passwords not matching</string>
+    <string name="by">BY</string>
+</resources>
